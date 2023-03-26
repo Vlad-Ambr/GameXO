@@ -56,7 +56,22 @@ namespace GameXO
             One.BackColor = Color.FromArgb(255, 255, 255);
             One.Location = new Point(60, 60);
             One.Font = new Font("Comic Sans MS", 25);
-            
+            One.Click += (e, sender) =>
+            {
+                if (turn)
+                {
+                    One.Text = "X";
+                    PlayerTurn.Text = "O turn";
+                    turn = false;
+                }
+                else
+                {
+                    One.Text = "O";
+                    PlayerTurn.Text = "X turn";
+                    turn = true;
+                }
+                One.Enabled = false;
+            };
             this.Controls.Add(One);
 
 
@@ -70,7 +85,22 @@ namespace GameXO
             Two.BackColor = Color.FromArgb(255, 255, 255);
             Two.Location = new Point(160, 60);
             Two.Font = new Font("Comic Sans MS", 25);
-            
+            Two.Click += (e, sender) =>
+            {
+                if (turn)
+                {
+                    Two.Text = "X";
+                    PlayerTurn.Text = "O turn";
+                    turn = false;
+                }
+                else
+                {
+                    Two.Text = "O";
+                    PlayerTurn.Text = "X turn";
+                    turn = true;
+                }
+                Two.Enabled = false;
+            };
             this.Controls.Add(Two);
 
 
@@ -84,7 +114,22 @@ namespace GameXO
             Three.BackColor = Color.FromArgb(255, 255, 255);
             Three.Location = new Point(260, 60);
             Three.Font = new Font("Comic Sans MS", 25);
-            
+            Three.Click += (e, sender) =>
+            {
+                if (turn)
+                {
+                    Three.Text = "X";
+                    PlayerTurn.Text = "O turn";
+                    turn = false;
+                }
+                else
+                {
+                    Three.Text = "O";
+                    PlayerTurn.Text = "X turn";
+                    turn = true;
+                }
+                Three.Enabled = false;
+            };
             this.Controls.Add(Three);
 
 
@@ -98,7 +143,22 @@ namespace GameXO
             Four.BackColor = Color.FromArgb(255, 255, 255);
             Four.Location = new Point(60, 160);
             Four.Font = new Font("Comic Sans MS", 25);
-           
+            Four.Click += (e, sender) =>
+            {
+                if (turn)
+                {
+                    Four.Text = "X";
+                    PlayerTurn.Text = "O turn";
+                    turn = false;
+                }
+                else
+                {
+                    Four.Text = "O";
+                    PlayerTurn.Text = "X turn";
+                    turn = true;
+                }
+                Four.Enabled = false;
+            };
             this.Controls.Add(Four);
 
 
@@ -112,7 +172,22 @@ namespace GameXO
             Five.BackColor = Color.FromArgb(255, 255, 255);
             Five.Location = new Point(160, 160);
             Five.Font = new Font("Comic Sans MS", 25);
-            
+            Five.Click += (e, sender) =>
+            {
+                if (turn)
+                {
+                    Five.Text = "X";
+                    PlayerTurn.Text = "O turn";
+                    turn = false;
+                }
+                else
+                {
+                    Five.Text = "O";
+                    PlayerTurn.Text = "X turn";
+                    turn = true;
+                }
+                Five.Enabled = false;
+            };
             this.Controls.Add(Five);
 
 
@@ -126,7 +201,22 @@ namespace GameXO
             Six.BackColor = Color.FromArgb(255, 255, 255);
             Six.Location = new Point(260, 160);
             Six.Font = new Font("Comic Sans MS", 25);
-            
+            Six.Click += (e, sender) =>
+            {
+                if (turn)
+                {
+                    Six.Text = "X";
+                    PlayerTurn.Text = "O turn";
+                    turn = false;
+                }
+                else
+                {
+                    Six.Text = "O";
+                    PlayerTurn.Text = "X turn";
+                    turn = true;
+                }
+                Six.Enabled = false;
+            };
             this.Controls.Add(Six);
 
 
@@ -140,7 +230,22 @@ namespace GameXO
             Seven.BackColor = Color.FromArgb(255, 255, 255);
             Seven.Location = new Point(60, 260);
             Seven.Font = new Font("Comic Sans MS", 25);
-            
+            Seven.Click += (e, sender) =>
+            {
+                if (turn)
+                {
+                    Seven.Text = "X";
+                    PlayerTurn.Text = "O turn";
+                    turn = false;
+                }
+                else
+                {
+                    Seven.Text = "O";
+                    PlayerTurn.Text = "X turn";
+                    turn = true;
+                }
+                Seven.Enabled = false;
+            };
             this.Controls.Add(Seven);
 
 
@@ -154,7 +259,22 @@ namespace GameXO
             Eight.BackColor = Color.FromArgb(255, 255, 255);
             Eight.Location = new Point(160, 260);
             Eight.Font = new Font("Comic Sans MS", 25);
-           
+            Eight.Click += (e, sender) =>
+            {
+                if (turn)
+                {
+                    Eight.Text = "X";
+                    PlayerTurn.Text = "O turn";
+                    turn = false;
+                }
+                else
+                {
+                    Eight.Text = "O";
+                    PlayerTurn.Text = "X turn";
+                    turn = true;
+                }
+                Eight.Enabled = false;
+            };
             this.Controls.Add(Eight);
 
 
@@ -168,7 +288,22 @@ namespace GameXO
             Nine.BackColor = Color.FromArgb(255, 255, 255);
             Nine.Location = new Point(260, 260);
             Nine.Font = new Font("Comic Sans MS", 25);
-            
+            Nine.Click += (e, sender) =>
+            {
+                if (turn)
+                {
+                    Nine.Text = "X";
+                    PlayerTurn.Text = "O turn";
+                    turn = false;
+                }
+                else
+                {
+                    Nine.Text = "O";
+                    PlayerTurn.Text = "X turn";
+                    turn = true;
+                }
+                Nine.Enabled = false;
+            };
             this.Controls.Add(Nine);
 
 
@@ -186,6 +321,7 @@ namespace GameXO
             PlayerTurn.Location = new Point(420, 180);
             this.Controls.Add(PlayerTurn);
         }
+        bool turn = true;
         Button One;
         Button Two;
         Button Three;
