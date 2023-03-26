@@ -60,14 +60,32 @@ namespace GameXO
             {
                 if (turn)
                 {
+                    step++;
                     One.Text = "X";
-                    PlayerTurn.Text = "O turn";
+                    if (Check_Win_X())
+                    {
+                        PlayerTurn.Text = "X win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "O turn";
                     turn = false;
                 }
                 else
                 {
+                    step++;
                     One.Text = "O";
-                    PlayerTurn.Text = "X turn";
+                    if (Check_Win_O())
+                    {
+                        PlayerTurn.Text = "O win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "X turn";
                     turn = true;
                 }
                 One.Enabled = false;
@@ -89,14 +107,32 @@ namespace GameXO
             {
                 if (turn)
                 {
+                    step++;
                     Two.Text = "X";
-                    PlayerTurn.Text = "O turn";
+                    if (Check_Win_X())
+                    {
+                        PlayerTurn.Text = "X win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "O turn";
                     turn = false;
                 }
                 else
                 {
+                    step++;
                     Two.Text = "O";
-                    PlayerTurn.Text = "X turn";
+                    if (Check_Win_O())
+                    {
+                        PlayerTurn.Text = "O win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "X turn";
                     turn = true;
                 }
                 Two.Enabled = false;
@@ -118,14 +154,32 @@ namespace GameXO
             {
                 if (turn)
                 {
+                    step++;
                     Three.Text = "X";
-                    PlayerTurn.Text = "O turn";
+                    if (Check_Win_X())
+                    {
+                        PlayerTurn.Text = "X win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "O turn";
                     turn = false;
                 }
                 else
                 {
+                    step++;
                     Three.Text = "O";
-                    PlayerTurn.Text = "X turn";
+                    if (Check_Win_O())
+                    {
+                        PlayerTurn.Text = "O win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "X turn";
                     turn = true;
                 }
                 Three.Enabled = false;
@@ -147,14 +201,32 @@ namespace GameXO
             {
                 if (turn)
                 {
+                    step++;
                     Four.Text = "X";
-                    PlayerTurn.Text = "O turn";
+                    if (Check_Win_X())
+                    {
+                        PlayerTurn.Text = "X win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "O turn";
                     turn = false;
                 }
                 else
                 {
+                    step++;
                     Four.Text = "O";
-                    PlayerTurn.Text = "X turn";
+                    if (Check_Win_O())
+                    {
+                        PlayerTurn.Text = "O win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "X turn";
                     turn = true;
                 }
                 Four.Enabled = false;
@@ -176,14 +248,32 @@ namespace GameXO
             {
                 if (turn)
                 {
+                    step++;
                     Five.Text = "X";
-                    PlayerTurn.Text = "O turn";
+                    if (Check_Win_X())
+                    {
+                        PlayerTurn.Text = "X win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "O turn";
                     turn = false;
                 }
                 else
                 {
+                    step++;
                     Five.Text = "O";
-                    PlayerTurn.Text = "X turn";
+                    if (Check_Win_O())
+                    {
+                        PlayerTurn.Text = "O win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "X turn";
                     turn = true;
                 }
                 Five.Enabled = false;
@@ -205,14 +295,32 @@ namespace GameXO
             {
                 if (turn)
                 {
+                    step++;
                     Six.Text = "X";
-                    PlayerTurn.Text = "O turn";
+                    if (Check_Win_X())
+                    {
+                        PlayerTurn.Text = "X win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "O turn";
                     turn = false;
                 }
                 else
                 {
+                    step++;
                     Six.Text = "O";
-                    PlayerTurn.Text = "X turn";
+                    if (Check_Win_O())
+                    {
+                        PlayerTurn.Text = "O win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "X turn";
                     turn = true;
                 }
                 Six.Enabled = false;
@@ -234,14 +342,32 @@ namespace GameXO
             {
                 if (turn)
                 {
+                    step++;
                     Seven.Text = "X";
-                    PlayerTurn.Text = "O turn";
+                    if (Check_Win_X())
+                    {
+                        PlayerTurn.Text = "X win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "O turn";
                     turn = false;
                 }
                 else
                 {
+                    step++;
                     Seven.Text = "O";
-                    PlayerTurn.Text = "X turn";
+                    if (Check_Win_O())
+                    {
+                        PlayerTurn.Text = "O win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "X turn";
                     turn = true;
                 }
                 Seven.Enabled = false;
@@ -263,14 +389,32 @@ namespace GameXO
             {
                 if (turn)
                 {
+                    step++;
                     Eight.Text = "X";
-                    PlayerTurn.Text = "O turn";
+                    if (Check_Win_X())
+                    {
+                        PlayerTurn.Text = "X win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "O turn";
                     turn = false;
                 }
                 else
                 {
+                    step++;
                     Eight.Text = "O";
-                    PlayerTurn.Text = "X turn";
+                    if (Check_Win_O())
+                    {
+                        PlayerTurn.Text = "O win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "X turn";
                     turn = true;
                 }
                 Eight.Enabled = false;
@@ -292,14 +436,32 @@ namespace GameXO
             {
                 if (turn)
                 {
+                    step++;
                     Nine.Text = "X";
-                    PlayerTurn.Text = "O turn";
+                    if (Check_Win_X())
+                    {
+                        PlayerTurn.Text = "X win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "O turn";
                     turn = false;
                 }
                 else
                 {
+                    step++;
                     Nine.Text = "O";
-                    PlayerTurn.Text = "X turn";
+                    if (Check_Win_O())
+                    {
+                        PlayerTurn.Text = "O win!!!";
+                        End_Game();
+                    }
+                    else if (step == 9)
+                        PlayerTurn.Text = "Friendship!!!☺";
+                    else
+                        PlayerTurn.Text = "X turn";
                     turn = true;
                 }
                 Nine.Enabled = false;
@@ -321,6 +483,7 @@ namespace GameXO
             PlayerTurn.Location = new Point(420, 180);
             this.Controls.Add(PlayerTurn);
         }
+        int step = 0;
         bool turn = true;
         Button One;
         Button Two;
@@ -332,6 +495,68 @@ namespace GameXO
         Button Eight;
         Button Nine;
         Label PlayerTurn;
+
+        public void End_Game()
+        {
+            if (One.Enabled == true)
+                One.Enabled = false;
+            if (Two.Enabled == true)
+                Two.Enabled = false;
+            if (Three.Enabled == true)
+                Three.Enabled = false;
+            if (Four.Enabled == true)
+                Four.Enabled = false;
+            if (Five.Enabled == true)
+                Five.Enabled = false;
+            if (Six.Enabled == true)
+                Six.Enabled = false;
+            if (Seven.Enabled == true)
+                Seven.Enabled = false;
+            if (Eight.Enabled == true)
+                Eight.Enabled = false;
+            if (Nine.Enabled == true)
+                Nine.Enabled = false;
+        }
+        public bool Check_Win_X()
+        {
+            if (One.Text == "X" && Two.Text == "X" && Three.Text == "X")
+                return true;
+            else if (Four.Text == "X" && Five.Text == "X" && Six.Text == "X")
+                return true;
+            else if (Seven.Text == "X" && Eight.Text == "X" && Nine.Text == "X")
+                return true;
+            else if (One.Text == "X" && Five.Text == "X" && Nine.Text == "X")
+                return true;
+            else if (Three.Text == "X" && Five.Text == "X" && Seven.Text == "X")
+                return true;
+            else if (One.Text == "X" && Four.Text == "X" && Seven.Text == "X")
+                return true;
+            else if (Two.Text == "X" && Five.Text == "X" && Eight.Text == "X")
+                return true;
+            else if (Three.Text == "X" && Six.Text == "X" && Nine.Text == "X")
+                return true;
+            return false;
+        }
+        public bool Check_Win_O()
+        {
+            if (One.Text == "O" && Two.Text == "O" && Three.Text == "O")
+                return true;
+            else if (Four.Text == "O" && Five.Text == "O" && Six.Text == "O")
+                return true;
+            else if (Seven.Text == "O" && Eight.Text == "O" && Nine.Text == "O")
+                return true;
+            else if (One.Text == "O" && Five.Text == "O" && Nine.Text == "O")
+                return true;
+            else if (Three.Text == "O" && Five.Text == "O" && Seven.Text == "O")
+                return true;
+            else if (One.Text == "O" && Four.Text == "O" && Seven.Text == "O")
+                return true;
+            else if (Two.Text == "O" && Five.Text == "O" && Eight.Text == "O")
+                return true;
+            else if (Three.Text == "O" && Six.Text == "O" && Nine.Text == "O")
+                return true;
+            return false;
+        }
         #endregion
     }
 }
